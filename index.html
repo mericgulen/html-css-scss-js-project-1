@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This project is created by using Html,Css,Scss and Js"
+    />
+    <meta name="author" content="Meric Gulen" />
+    <meta name="keywords" content="scss,sass,html, css,js" />
+    <title>Html-Css-Scss-Js Project</title>
+    <!--* Bootstrap icon cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!--* Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--* Header  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">JBL</a>
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#favorite" class="nav-link">Favorites</a>
+            </li>
+            <li class="nav__item">
+              <a href="#model" class="nav-link">Models</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <!--* menu btn  -->
+          <div class="nav__toggle" id="nav__toggle">
+            <i class="bi bi-list"></i>
+            <i class="bi bi-x"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--* Social  -->
+    <aside class="socials">
+      <div class="socials__social">
+        <span class="socials__social--title">Follow Us</span>
+        <div class="socials__social-links">
+          <a href="#" class="socials__social-link"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="#" class="socials__social-link"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="#" class="socials__social-link"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a href="#" class="socials__social-link"
+            ><i class="bi bi-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <!--* Home  -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__img-content">
+            <img class="" src="./images/home-img.png" alt="home image" />
+            <h1 class="home__title">
+              <span>J</span>
+              <span>B</span>
+              <span>L</span>
+            </h1>
+          </div>
+          <a href="#" class="home__btn btn"
+            >Buy Now <i class="bi bi-play-circle-fill"></i
+          ></a>
+        </div>
+      </section>
+      <!--* About  -->
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title">About Us</h2>
+          <p class="about__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+            sunt suscipit exercitationem temporibus. Suscipit id error iure.
+            Odio nam nisi adipisci architecto?
+          </p>
+          <div class="about__content">
+            <img src="./images/about-img.png" alt="headphone image" />
+            <div class="about__content-btn">
+              <a href="#" class="home__btn btn"
+                >Know More<i class="bi bi-info-circle"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--* Favorite  -->
+      <section class="favorite" id="favorite">
+        <div class="container">
+          <h2 class="about__title">Favorites</h2>
+          <div class="grid grid-col-4">
+            <div class="col">
+              <img src="./images/favorite-1.png" alt="favorite image" />
+              <p>Black Model</p>
+            </div>
+            <div class="col">
+              <img src="./images/favorite-2.png" alt="favorite image" />
+              <p>White Model</p>
+            </div>
+            <div class="col">
+              <img src="./images/favorite-3.png" alt="favorite image" />
+              <p>Red Model</p>
+            </div>
+            <div class="col">
+              <img src="./images/favorite-4.png" alt="favorite image" />
+              <p>Teal Model</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--* Model  -->
+      <section class="model" id="model">
+        <div class="container">
+          <h2 class="about__title">Model</h2>
+          <div class="model__img">
+            <img
+              class="model__img-img"
+              src="./images/model-img.png"
+              alt="model image"
+            />
+            <div class="model__tooltip-1">
+              <img
+                class="tooltip-img"
+                src="./images/tooltip-right.svg"
+                alt="tooltip image"
+              />
+              <a class="btn-tooltip tooltip-text">Best Comfort</a>
+            </div>
+            <div class="model__tooltip-2">
+              <img
+                class="tooltip"
+                src="./images/tooltip-right.svg"
+                alt="tooltip image"
+              />
+              <a class="btn-tooltip tooltip-text">Fast Charge</a>
+            </div>
+            <div class="model__tooltip-3">
+              <img
+                class="tooltip"
+                src="./images/tooltip-right.svg"
+                alt="tooltip image"
+              />
+              <a class="btn-tooltip tooltip-text">Easy Adjustment</a>
+            </div>
+            <div class="model__tooltip-4">
+              <img
+                class="tooltip"
+                src="./images/tooltip-right.svg"
+                alt="tooltip image"
+              />
+              <a class="btn-tooltip tooltip-text">Custom Audio</a>
+            </div>
+          </div>
+          <div class="model__btn">
+            <a href="#" class="home__btn btn cntr"
+              >Buy Now <i class="bi bi-play-circle-fill"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!--* Sponsor  -->
+      <section class="sponsor" id="sponsor">
+        <div class="container sponsor__container">
+          <div class="grid grid-col-4">
+            <div class="col">
+              <img src="./images/sponsor-1.png" alt="sponsor image" />
+            </div>
+            <div class="col">
+              <img src="./images/sponsor-2.png" alt="sponsor image" />
+            </div>
+            <div class="col">
+              <img src="./images/sponsor-3.png" alt="sponsor image" />
+            </div>
+            <div class="col">
+              <img src="./images/sponsor-4.png" alt="favorite image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--* Footer  -->
+      <section class="footer" id="contact">
+        <div class="container">
+          <a href="#" class="footer__logo">JBL</a>
+          <div class="footer__content">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#home" class="footer-link">Home</a>
+              </li>
+              <li class="footer__item">
+                <a href="#about" class="footer-link">About</a>
+              </li>
+              <li class="footer__item">
+                <a href="#favorite" class="footer-link">Favorites</a>
+              </li>
+              <li class="footer__item">
+                <a href="#model" class="footer-link">Models</a>
+              </li>
+              <li class="footer__item">
+                <a href="#model" class="footer-link">Contact</a>
+              </li>
+            </ul>
+
+            <div class="footer__input">
+              <input type="text" placeholder="Subscribe" />
+              <div class="footer__content-btn">
+                <a href="#" class="home__btn btn"
+                  >Subscribe<i class="bi bi-info-circle"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <p class="footer__text">
+            &copy; <span class="year">2023</span> MgDev
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

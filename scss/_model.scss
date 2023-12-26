@@ -1,0 +1,60 @@
+.model {
+  padding: 8rem 5rem 5rem 8rem;
+
+  &__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  &__img .model__img-img {
+    width: 50rem;
+    margin-top: 8rem;
+  }
+
+  &__tooltip-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -35.5rem;
+  }
+  .tooltip-img {
+    width: 10rem;
+  }
+  .tooltip-text {
+    transform: translateY(-2rem);
+    margin-right: -1.5rem;
+  }
+
+  &__tooltip-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -20rem;
+    left: -12rem;
+  }
+  &__tooltip-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -56rem;
+    right: -20rem;
+  }
+  &__tooltip-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -24rem;
+    right: -20rem;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: -10rem;
+  }
+}

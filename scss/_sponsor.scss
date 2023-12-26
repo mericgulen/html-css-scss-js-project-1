@@ -1,0 +1,26 @@
+.sponsor {
+  padding: 8rem 5rem 3rem 8rem;
+  margin-bottom: 5rem;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid-col-4 {
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    justify-content: center;
+    align-items: center;
+  }
+  .col {
+    & img {
+      width: 95%;
+      transform: scale(1);
+      transition: var(--transition);
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

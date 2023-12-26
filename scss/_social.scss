@@ -1,0 +1,44 @@
+.socials {
+  &__social {
+    position: fixed;
+    top: 35%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+
+    &--title {
+      font-size: var(--normal-font-size);
+      transform: rotate(90deg);
+      color: #9aebc3;
+
+      position: relative;
+    }
+    &--title::after {
+      content: '';
+      background-color: white;
+      // padding: 1rem 0.08rem;
+      position: absolute;
+      top: 50%;
+      left: 120%;
+      width: 4rem;
+      height: 0.1rem;
+    }
+  }
+  &__social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    margin-top: 5rem;
+  }
+  &__social-link {
+    display: inline-block;
+    font-size: 2.4rem;
+    cursor: pointer ;
+    transition: var(--transition);
+    &:hover {
+      color: var(--first-color) ;
+    }
+  }
+}

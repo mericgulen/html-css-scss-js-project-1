@@ -1,0 +1,21 @@
+.about {
+  padding: 0 4rem 4rem 8rem;
+  &__title {
+    font-size: var(--h1-font-size);
+    color: var(--first-color);
+  }
+  &__text {
+    font-size: var(--normal-font-size);
+    line-height: 1.5;
+    margin: 2rem 0 4rem 0;
+  }
+  .about__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6rem;
+    & img {
+      width: 22rem;
+    }
+  }
+}
